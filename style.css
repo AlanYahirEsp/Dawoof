@@ -124,7 +124,12 @@ div.div-3 {
     justify-content: space-around;
 }
 
-
+div.div-4 {
+    background-image: url(imgs/img-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+}
 
 div.div-5 {
     background-image: url(imgs/img-8.jpg);
