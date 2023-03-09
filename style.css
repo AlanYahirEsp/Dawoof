@@ -78,7 +78,6 @@ img { /* ImgAjustada-MediaQ */
 /* Grid-Cubes */
 
 div.grid { /* bajar grid del top al center */
-
     padding: 3rem;
     height: 60rem;
     width: auto;
@@ -172,7 +171,120 @@ div.div-8 {
 .item__1-grid {
     background-color: gray;
     width: auto;
-    height: 13rem;
+    height: 23rem;
     margin: 4rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section-2 */
+
+div.section_2 { /* div del grid */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 4rem;
+}
+
+.section_2_item { /* colores y acomodo de los items dentro del grid */
+    background-color: black;
+    height: 35rem;
+    width: auto;
+    margin: 4rem;
+}
+
+
+
+
+/* contenido-section-2 */
+
+img { /* ajuste de las imagenes a el div completo */
+    height:100%;
+    width:100%;
+}
+
+
+
+
+/* botones */
+
+.section_2 { /* texto de los botones alineado al centro */
+    text-align: center;
+}
+
+.section_2 a { /* decoracion-btns */
+text-decoration: none;
+background-color: tomato;
+color: black;
+}
+
+.section_2 { /* background de todo el div */
+    background-color: antiquewhite;
+}
+
+
+
+
+/* section-ghost*/
+
+.hopper {
+    background-color: aqua;
+    height: 20rem;
+    width: auto;
+    margin: 20rem;
+}
+
+
+
+
 
