@@ -42,11 +42,15 @@ nav {
     margin: 3.5rem;
 }
 
+ul.menu {
+    margin-top: 0rem;
+}
+
 a.menuitem {
     background-color: beige;
     text-decoration: none;
     font-family: monospace;
-    padding: 0 2rem;
+    padding: 0 1rem;
     margin: 1rem;
     color: rgb(0, 0, 0);
     transition: .5s;
@@ -55,6 +59,10 @@ a.menuitem {
 a.menuitem:hover {
     background-color: rgb(216, 216, 216);
     text-decoration-color: black;
+}
+
+.menuitem-black {
+    margin: 0rem 2rem;
 }
 
 
@@ -68,18 +76,24 @@ img { /* ImgAjustada-MediaQ */
 }
 
 .cat { /* Size */
-    margin: 4.5rem auto;
-    width: 20rem;
+    margin: 4.5rem 10rem;
+    width: 18rem;
+}
+
+header {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
 }
 
 
+/* login */
 
 
 /* Grid-Cubes */
 
 div.grid { /* bajar grid del top al center */
     padding: 3rem;
-    height: 60rem;
+    height: 45rem;
     width: auto;
     /*background-color: rgba(0, 0, 0, 0.199);*/
 }
@@ -121,14 +135,12 @@ div.div-3 {
     background-repeat: no-repeat;
     justify-content: space-around;
 }
-
 div.div-4 {
     background-image: url(imgs/img-4.png);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: space-around;
 }
-
 div.div-5 {
     background-image: url(imgs/img-8.jpg);
     background-size: cover;
@@ -159,8 +171,6 @@ div.div-8 {
 
 
 
-
-
 /* Go/news */
 
 .grid__items {
@@ -169,119 +179,31 @@ div.div-8 {
 }
 
 .item__1-grid {
-    background-color: gray;
+    background-color: rgb(241, 241, 241);
     width: auto;
-    height: 23rem;
+    height: 16rem;
     margin: 4rem;
 }
 
 
 
 
+/* section-anuncio*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* section-2 */
-
-div.section_2 { /* div del grid */
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 4rem;
-}
-
-.section_2_item { /* colores y acomodo de los items dentro del grid */
-    background-color: black;
-    height: 35rem;
-    width: auto;
-    margin: 4rem;
-}
-
-
-
-
-/* contenido-section-2 */
-
-img { /* ajuste de las imagenes a el div completo */
-    height:100%;
-    width:100%;
-}
-
-
-
-
-/* botones */
-
-.section_2 { /* texto de los botones alineado al centro */
-    text-align: center;
-}
-
-.section_2 a { /* decoracion-btns */
-text-decoration: none;
-background-color: tomato;
-color: black;
-}
-
-.section_2 { /* background de todo el div */
-    background-color: antiquewhite;
-}
-
-
-
-
-/* section-ghost*/
-
-.hopper {
-    background-color: aqua;
+.anuncio {
     height: 20rem;
     width: auto;
     margin: 20rem;
+}
+
+div.item_item {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.anuncio {
+    background-color: black;
+    border-radius: .5rem;
 }
 
 
