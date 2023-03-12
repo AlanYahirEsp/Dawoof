@@ -47,7 +47,7 @@ ul.menu {
 }
 
 a.menuitem {
-    background-color: beige;
+    background-color: rgb(221, 221, 221);
     text-decoration: none;
     font-family: monospace;
     padding: 0 1rem;
@@ -57,13 +57,19 @@ a.menuitem {
 }
 
 a.menuitem:hover {
-    background-color: rgb(216, 216, 216);
+    background-color: beige;
     text-decoration-color: black;
 }
 
 .menuitem-black {
     margin: 0rem 2rem;
 }
+
+header {
+    background-color: beige;
+    margin: 1rem auto;
+}
+
 
 
 
@@ -88,11 +94,15 @@ grid-template-columns: repeat(2, 1fr);
 
 /* login */
 
+svg:hover {
+    border: .01rem black solid;
+    cursor: pointer;
+}
 
 /* Grid-Cubes */
 
 div.grid { /* bajar grid del top al center */
-    padding: 3rem;
+    padding: 0rem 3rem;
     height: 45rem;
     width: auto;
     /*background-color: rgba(0, 0, 0, 0.199);*/
@@ -108,7 +118,7 @@ div.grid { /* divide el grid en 8 por cada fila */
 }
 
 .grid div:hover { /* resplandor al seleccionar */
-    box-shadow: 0 12px 16px rgba(0, 0 ,0 ,0.2);   
+    border: .1rem black solid;
     cursor: pointer;
 }
 
@@ -179,7 +189,7 @@ div.div-8 {
 }
 
 .item__1-grid {
-    background-color: rgb(241, 241, 241);
+    background-color: beige;
     width: auto;
     height: 16rem;
     margin: 4rem;
@@ -190,23 +200,24 @@ div.div-8 {
 
 /* section-anuncio*/
 
-.anuncio {
-    height: 20rem;
-    width: auto;
-    margin: 20rem;
-}
-
-div.item_item {
+div.anuncios {
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0rem 1rem;
 }
 
-.anuncio {
-    background-color: black;
-    border-radius: .5rem;
+div.item_anuncio {
+    background-color: beige ;
 }
 
 
+div.item_anuncio {
+    display: flex;
+    justify-content: center;
 
-
-
+}
+    
+div.item_anuncio {
+    height: 50rem;
+    width: auto;
+}
