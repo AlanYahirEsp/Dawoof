@@ -207,17 +207,17 @@ div.anuncios {
 }
 
 div.item_anuncio {
+    display: flex;
+    justify-content: center;
+    height: 50rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
     background-color: beige ;
 }
 
-
-div.item_anuncio {
+div.item_anuncio div h3,
+div.item_anuncio div p {
     display: flex;
     justify-content: center;
-
-}
-    
-div.item_anuncio {
-    height: 50rem;
-    width: auto;
 }
