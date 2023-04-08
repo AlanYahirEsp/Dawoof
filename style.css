@@ -150,6 +150,11 @@ a.link-page {
 
 /* section-anuncio*/
 
+h4 {
+  text-align: center; 
+  margin-top: 10rem; 
+}
+
 div.anuncios {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -173,3 +178,64 @@ div.item_anuncio div p {
     display: flex;
     justify-content: center;
 }
+
+
+/* Add form */
+
+.form-register h4 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.form-register {
+    width: 40rem;
+    background: #24303c;
+    padding: 3rem;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: .4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: .7rem 1.3rem 3.7rem #000;
+    margin-bottom: 5rem;
+}
+
+.form-register p {
+    height: 4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 4rem;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 1rem;
+    border-radius: .4rem;
+    margin-bottom: 1.6rem;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 1.8rem;
+    color: white;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 1.2rem;
+    color: white;
+    margin: 1.6rem 0rem;
+    font-size: 1.6rem;
+}
+
