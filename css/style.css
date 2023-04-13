@@ -1,0 +1,398 @@
+/*Globales*/
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;  /* Hack para box model */
+    scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+}
+
+img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+
+/* Tipografia */
+
+h1 {
+    font-size: 3.8rem;
+}
+
+
+h2 {
+    font-size: 2.8rem;    
+}
+
+
+h3{
+    font-size: 1.8rem;    
+}
+
+
+
+/* Heading */
+
+nav {
+    text-align: center;
+    margin: 1.1rem;
+}
+
+a.menuitem {
+    background-color: rgb(221, 221, 221);
+    text-decoration: none;
+    font-family: monospace;
+    padding: 0 1rem;
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+a.menuitem:hover {
+    background-color: beige;
+    text-decoration-color: black;
+}
+
+.menuitem-black {
+    margin: 1rem 2rem;
+}
+
+header {
+    background-color: beige;
+    margin: .5rem auto;
+}
+
+
+
+/* Logo */
+
+.logotipo { /* Size */
+    margin: 2.5rem 9rem;
+    width: 15rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height:8rem;
+}
+
+
+
+/* login-shop */
+
+svg:hover {
+    border: .01rem black solid;
+    cursor: pointer;
+}
+
+
+/* Grid-Cubes */
+
+div.grid { /* bajar grid del top al center */
+    padding: 1rem 3rem;
+    height: 43rem;
+    width: auto;
+}
+
+div.grid { /* divide el grid en 8 por cada fila */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.grid {
+    margin: 5rem;
+}
+
+.grid img:hover { /* resplandor al seleccionar */
+    padding: .1rem;
+}
+
+a.link-page {
+    margin: 1rem;
+}
+
+
+
+/* Go/news */
+
+.grid__items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.item__1-grid {
+    background-color: beige;
+    width: auto;
+    height: 20rem;
+    margin: 0rem 5rem 5rem 5rem;
+}
+
+
+
+/* section-anuncio*/
+
+h4 {
+  text-align: center; 
+  margin-top: 5rem; 
+}
+
+div.anuncios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0rem 10rem;
+    margin: 10rem;
+    margin-top: 10rem;
+}
+
+div.item_anuncio {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: beige ;
+}
+
+div.item_anuncio div h3,
+div.item_anuncio div p {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+ div.middlefurry {
+    margin: 10rem 10rem;
+}
+
+
+
+/* Grid-buttom */
+
+.grid-buttom-dad {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60rem;
+    width: auto;
+    margin: 5rem;
+    gap: 5rem;
+}
+
+.grid-buttom-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.grid-buttom-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+
+
+/* Grid-buttom / boys */
+
+.buttom-boys-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem;
+}
+
+.buttom-boys-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;   
+}
+
+.int-boys {
+    margin: 2rem;
+}
+
+.img-complet-buttom {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* container-Finals */
+
+.container_finals {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    width: 100%;
+    height: 50rem;  
+    margin-top: 20rem;
+    margin-bottom: 30rem;
+}
+
+.container__finals {
+    margin: 0rem 2rem;
+}
+
+
+
+/* text-fianl */
+
+.tittle-final {
+    text-align: center;
+    text-transform: uppercase;
+    margin: .5rem;
+}
+
+.text-final {
+    margin-top: 5rem;
+}
+
+
+/* footer */
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    font-size: medium;
+    padding: 3rem;
+}
+
+.hover:hover {
+    border-left: 1px solid;
+    cursor: pointer;
+}
+
+/* div-footer-1 */
+
+.h5-footer-1 {
+    font-size: 2rem;
+}
+
+.div-footer-1 {
+    padding: 3rem;
+}
+
+.p-footer-1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} 
+
+.separation {
+    margin-top: 2rem;
+}
+
+.separation:hover {
+    border-color: black;
+}
+
+.mini-grid-inputs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2rem;
+}
+
+.tyc:hover {
+    color: rgb(31, 124, 124);
+}
+
+.suscribe {
+    color: white;
+    background-color: rgb(51, 47, 47);
+}
+
+.suscribe:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+
+
+/* div-footer-2 */
+
+.div-footer-2 {
+    padding: 3rem;
+}
+
+ul h6 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.ul-footer {
+   list-style: none;
+}
+
+.li-footer {
+    font-size: small;
+    margin-top: 1rem;
+}
+
+
+
+/* div-footer-3 */
+
+.div-footer-3 {
+    padding: 3rem;
+
+}
+
+.ul-footer-3 {
+    list-style: none;
+}
+
+
+
+/* div-footer-4 */
+
+.div-footer-4 {
+    padding: 3rem;
+}
+
+.ul-footer-4 {
+    list-style: none;
+}
+
+.img-appstore {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 10rem;
+}
+
+.img-app {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
